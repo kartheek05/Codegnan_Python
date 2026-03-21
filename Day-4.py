@@ -106,7 +106,7 @@ vote_right = True
 print(age>=18 and vote_right,)#both condition to be True then only True
 print(age>18 or vote_right)#any one condition is True then result is True
 print(not vote_right)
-'''
+
 
 #Identify Operators --> They check the memory location and validate we used
 #(id) function it is different form == operator -> is, is not
@@ -114,15 +114,41 @@ print(not vote_right)
 a = [1,2,4]
 b = [1,2,4]
 print(a == b)
-print(id(a))
+print(id(a))# return the identity of an object
 print(id(b))
-print(a is b)
+print(a is b)# here it will check the memory location of the data 
 print(b is not b)
 
 c = b
 print(c)
 print(id(c))
 print(c is b)
+
+#Bitwise Operstors --> Bitwise AND &, Bitwise OR | perform bitwise operation
+# we get the result (remainder the binary conversion)
+print(5&3)
+print(bin(5)) #returns binary number
+'''
+
+#Task --> Now you have all operators create a Checker Task
+#git add .
+#git commit -m"operators usage"
+#git push -u origin main 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
