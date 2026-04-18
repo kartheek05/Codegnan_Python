@@ -50,8 +50,8 @@ vo_co(any,count_1 = 0,count_2 = 0,count_3 = 0)
 <---------------------------------------------------------------------------------------------------------------------------------------------------->
  '''           
 HDFC_KK_AC_det = {"Name" : "Kartheek",
-                                      "Pin" : "3303",
-                                      "Balance" : 10000};
+                  "Pin" : "3303",
+                  "Balance" : 10000};
 print("Welcome to HDFC Bank ATM")
 print("Please insert your ATM Card")
 HDFC_User_Pin = input("Please Enter your 4 digit ATM Pin: ")

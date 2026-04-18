@@ -38,7 +38,7 @@ Dog_1 = Dog("husky","white","Friendly","Female")
 Dog_2 = Dog("lab","gold","Eco-friendly","Male")
 Dog_3 = Dog("German Sheped","White","Friendly","Male")
 print(Dog_1.breed,Dog_2.color,Dog_1.Type,Dog_2.gender)
-'''
+
 class car:
     def __init__(self,Brand,Model,Type,Year,):
         self.Brand = Brand
@@ -52,3 +52,8 @@ car_4 = car("Audi","A4","premium luxury sedans","2021")
 car_5 = car("Honda","CB350C","Normal","2026")
 car_6 = car("TATA","Safari","Family","2026")
 print(car_6.Model,car_5.Type)
+'''
+class Food:
+    def __init__(self):
+        pass
+
